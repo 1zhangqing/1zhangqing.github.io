@@ -3,11 +3,11 @@
   <title>一丈青</title>
   
   <subtitle>一丈青</subtitle>
-  <link href="http://yizhangqing.gitee.io/atom.xml" rel="self"/>
+  <link href="http://1zhangqing.github.io/atom.xml" rel="self"/>
   
-  <link href="http://yizhangqing.gitee.io/"/>
+  <link href="http://1zhangqing.github.io/"/>
   <updated>2021-07-11T16:36:17.425Z</updated>
-  <id>http://yizhangqing.gitee.io/</id>
+  <id>http://1zhangqing.github.io/</id>
   
   <author>
     <name>一丈青</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>逆序对的数量（归并排序的应用）</title>
-    <link href="http://yizhangqing.gitee.io/2021/07/11/ni-xu-dui-de-shu-liang-gui-bing-pai-xu-de-ying-yong/"/>
-    <id>http://yizhangqing.gitee.io/2021/07/11/ni-xu-dui-de-shu-liang-gui-bing-pai-xu-de-ying-yong/</id>
+    <link href="http://1zhangqing.github.io/2021/07/11/ni-xu-dui-de-shu-liang-gui-bing-pai-xu-de-ying-yong/"/>
+    <id>http://1zhangqing.github.io/2021/07/11/ni-xu-dui-de-shu-liang-gui-bing-pai-xu-de-ying-yong/</id>
     <published>2021-07-11T15:23:27.000Z</published>
     <updated>2021-07-11T16:36:17.425Z</updated>
     
@@ -34,17 +34,17 @@
     
     
     
-    <category term="algorithm" scheme="http://yizhangqing.gitee.io/categories/algorithm/"/>
+    <category term="algorithm" scheme="http://1zhangqing.github.io/categories/algorithm/"/>
     
     
-    <category term="algorithm" scheme="http://yizhangqing.gitee.io/tags/algorithm/"/>
+    <category term="algorithm" scheme="http://1zhangqing.github.io/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>归并排序</title>
-    <link href="http://yizhangqing.gitee.io/2021/07/11/gui-bing-pai-xu/"/>
-    <id>http://yizhangqing.gitee.io/2021/07/11/gui-bing-pai-xu/</id>
+    <link href="http://1zhangqing.github.io/2021/07/11/gui-bing-pai-xu/"/>
+    <id>http://1zhangqing.github.io/2021/07/11/gui-bing-pai-xu/</id>
     <published>2021-07-11T13:31:11.000Z</published>
     <updated>2021-07-11T15:12:40.457Z</updated>
     
@@ -59,17 +59,17 @@
     
     
     
-    <category term="algorithm" scheme="http://yizhangqing.gitee.io/categories/algorithm/"/>
+    <category term="algorithm" scheme="http://1zhangqing.github.io/categories/algorithm/"/>
     
     
-    <category term="algorithm" scheme="http://yizhangqing.gitee.io/tags/algorithm/"/>
+    <category term="algorithm" scheme="http://1zhangqing.github.io/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>第k个数（快速选择算法）</title>
-    <link href="http://yizhangqing.gitee.io/2021/07/11/di-k-ge-shu-kuai-su-xuan-ze-suan-fa/"/>
-    <id>http://yizhangqing.gitee.io/2021/07/11/di-k-ge-shu-kuai-su-xuan-ze-suan-fa/</id>
+    <link href="http://1zhangqing.github.io/2021/07/11/di-k-ge-shu-kuai-su-xuan-ze-suan-fa/"/>
+    <id>http://1zhangqing.github.io/2021/07/11/di-k-ge-shu-kuai-su-xuan-ze-suan-fa/</id>
     <published>2021-07-11T13:05:21.000Z</published>
     <updated>2021-07-11T13:20:36.874Z</updated>
     
@@ -84,17 +84,17 @@
     
     
     
-    <category term="algorithm" scheme="http://yizhangqing.gitee.io/categories/algorithm/"/>
+    <category term="algorithm" scheme="http://1zhangqing.github.io/categories/algorithm/"/>
     
     
-    <category term="algorithm" scheme="http://yizhangqing.gitee.io/tags/algorithm/"/>
+    <category term="algorithm" scheme="http://1zhangqing.github.io/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>快速排序</title>
-    <link href="http://yizhangqing.gitee.io/2021/07/11/kuai-su-pai-xu/"/>
-    <id>http://yizhangqing.gitee.io/2021/07/11/kuai-su-pai-xu/</id>
+    <link href="http://1zhangqing.github.io/2021/07/11/kuai-su-pai-xu/"/>
+    <id>http://1zhangqing.github.io/2021/07/11/kuai-su-pai-xu/</id>
     <published>2021-07-11T07:23:41.000Z</published>
     <updated>2021-07-11T15:14:15.713Z</updated>
     
@@ -109,19 +109,19 @@
     
     
     
-    <category term="algorithm" scheme="http://yizhangqing.gitee.io/categories/algorithm/"/>
+    <category term="algorithm" scheme="http://1zhangqing.github.io/categories/algorithm/"/>
     
     
-    <category term="algorithm" scheme="http://yizhangqing.gitee.io/tags/algorithm/"/>
+    <category term="algorithm" scheme="http://1zhangqing.github.io/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>hexo注意事项和常用命令</title>
-    <link href="http://yizhangqing.gitee.io/2021/05/03/hexo-zhu-yi-shi-xiang-he-chang-yong-ming-ling/"/>
-    <id>http://yizhangqing.gitee.io/2021/05/03/hexo-zhu-yi-shi-xiang-he-chang-yong-ming-ling/</id>
+    <link href="http://1zhangqing.github.io/2021/05/03/hexo-zhu-yi-shi-xiang-he-chang-yong-ming-ling/"/>
+    <id>http://1zhangqing.github.io/2021/05/03/hexo-zhu-yi-shi-xiang-he-chang-yong-ming-ling/</id>
     <published>2021-05-03T02:48:06.000Z</published>
-    <updated>2022-05-27T15:27:28.390Z</updated>
+    <updated>2022-05-27T16:04:37.752Z</updated>
     
     
       
@@ -139,8 +139,8 @@
   
   <entry>
     <title>Markdown语法注意事项</title>
-    <link href="http://yizhangqing.gitee.io/2021/05/03/markdown-yu-fa-zhu-yi-shi-xiang/"/>
-    <id>http://yizhangqing.gitee.io/2021/05/03/markdown-yu-fa-zhu-yi-shi-xiang/</id>
+    <link href="http://1zhangqing.github.io/2021/05/03/markdown-yu-fa-zhu-yi-shi-xiang/"/>
+    <id>http://1zhangqing.github.io/2021/05/03/markdown-yu-fa-zhu-yi-shi-xiang/</id>
     <published>2021-05-03T02:31:51.000Z</published>
     <updated>2021-07-11T07:40:10.054Z</updated>
     
@@ -160,8 +160,8 @@
   
   <entry>
     <title>CSDN自带markdown编辑器</title>
-    <link href="http://yizhangqing.gitee.io/2021/05/03/csdn-zi-dai-markdown-bian-ji-qi/"/>
-    <id>http://yizhangqing.gitee.io/2021/05/03/csdn-zi-dai-markdown-bian-ji-qi/</id>
+    <link href="http://1zhangqing.github.io/2021/05/03/csdn-zi-dai-markdown-bian-ji-qi/"/>
+    <id>http://1zhangqing.github.io/2021/05/03/csdn-zi-dai-markdown-bian-ji-qi/</id>
     <published>2021-05-02T16:00:00.000Z</published>
     <updated>2021-05-03T04:39:20.082Z</updated>
     
@@ -182,8 +182,8 @@
   
   <entry>
     <title>python基于协程的异步编程文档</title>
-    <link href="http://yizhangqing.gitee.io/2021/05/03/python-ji-yu-xie-cheng-de-yi-bu-bian-cheng-wen-dang/"/>
-    <id>http://yizhangqing.gitee.io/2021/05/03/python-ji-yu-xie-cheng-de-yi-bu-bian-cheng-wen-dang/</id>
+    <link href="http://1zhangqing.github.io/2021/05/03/python-ji-yu-xie-cheng-de-yi-bu-bian-cheng-wen-dang/"/>
+    <id>http://1zhangqing.github.io/2021/05/03/python-ji-yu-xie-cheng-de-yi-bu-bian-cheng-wen-dang/</id>
     <published>2021-05-02T16:00:00.000Z</published>
     <updated>2021-05-03T12:52:53.234Z</updated>
     
@@ -204,8 +204,8 @@
   
   <entry>
     <title>清华pip镜像</title>
-    <link href="http://yizhangqing.gitee.io/2021/04/10/qing-hua-pip-jing-xiang/"/>
-    <id>http://yizhangqing.gitee.io/2021/04/10/qing-hua-pip-jing-xiang/</id>
+    <link href="http://1zhangqing.github.io/2021/04/10/qing-hua-pip-jing-xiang/"/>
+    <id>http://1zhangqing.github.io/2021/04/10/qing-hua-pip-jing-xiang/</id>
     <published>2021-04-10T06:11:21.000Z</published>
     <updated>2021-04-10T06:15:20.366Z</updated>
     
