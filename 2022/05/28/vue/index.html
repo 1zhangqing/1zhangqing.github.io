@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="逆序对的数量（归并排序的应用）, 一丈青">
+    <meta name="keywords" content="Vue几点知识点, 一丈青">
     <meta name="description" content="努力和上进">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>逆序对的数量（归并排序的应用） | 一丈青</title>
+    <title>Vue几点知识点 | 一丈青</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -248,12 +248,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">逆序对的数量（归并排序的应用）</h1>
+                    <h1 class="description center-align post-title">Vue几点知识点</h1>
                 </div>
             </div>
         </div>
@@ -369,8 +369,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/algorithm/">
-                                <span class="chip bg-color">algorithm</span>
+                            <a href="/tags/notes/">
+                                <span class="chip bg-color">notes</span>
                             </a>
                         
                     </div>
@@ -381,8 +381,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/algorithm/" class="post-category">
-                                algorithm
+                            <a href="/categories/notes/" class="post-category">
+                                notes
                             </a>
                         
                     </div>
@@ -394,7 +394,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-07-11
+                    2022-05-28
                 </div>
                 
 
@@ -403,7 +403,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    219
+                    23
                 </div>
                 
 
@@ -433,51 +433,8 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="逆序对的数量（归并排序的应用）"><a href="#逆序对的数量（归并排序的应用）" class="headerlink" title="逆序对的数量（归并排序的应用）"></a><center>逆序对的数量（归并排序的应用）</center></h1><p>原题链接<a target="_blank" rel="noopener" href="https://www.acwing.com/problem/content/790/">788. 逆序对的数量 - AcWing题库</a></p>
-<p><img src="..%5Cimages%5Cimage-20210712000257663.png" alt="image-20210712000257663"></p>
-<p>模板：</p>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include&lt;iostream&gt;
-
-using namespace std;
-
-const int N &#x3D; 1e5 + 10;
-
-int q[N],tmp[N];
-
-typedef long long ll;
-
-ll merge_sort (int q[], int l, int r)
-&#123;
-    if (l &gt;&#x3D; r) return 0;
-    int mid &#x3D; l + r &gt;&gt; 1;
-    ll ans &#x3D; merge_sort(q, l, mid) + merge_sort(q, mid + 1, r);
-    int k &#x3D; 0, i &#x3D; l, j &#x3D; mid + 1;
-    while (i &lt;&#x3D; mid &amp;&amp; j &lt;&#x3D; r)
-    &#123;
-        if (q[i] &lt;&#x3D; q[j]) tmp[k ++ ] &#x3D; q[i ++ ];
-        else 
-        &#123;
-            tmp[k ++ ] &#x3D; q[j ++ ];
-            ans +&#x3D; mid - i + 1;
-        &#125;
-    &#125;
-    while (i &lt;&#x3D; mid) tmp[k ++ ] &#x3D; q[i ++ ];
-    while (j &lt;&#x3D; r) tmp[k ++ ] &#x3D; q[j ++ ];
-    
-    for (int i &#x3D; l, j &#x3D; 0; i &lt;&#x3D; r; i ++, j ++ ) q[i] &#x3D; tmp[j];
-    
-    return ans;
-&#125;
-
-int main()
-&#123;
-    int n;
-    scanf(&quot;%d&quot;, &amp;n);
-    for (int i &#x3D; 0; i &lt; n; i ++ ) scanf(&quot;%d&quot;, &amp;q[i]);
-    cout &lt;&lt; merge_sort(q, 0, n - 1) &lt;&lt; endl;
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
+                <p><a target="_blank" rel="noopener" href="https://note.youdao.com/s/F5YjrsTC">https://note.youdao.com/s/F5YjrsTC</a></p>
+<p>点击上方链接查看我的有道云笔记分享！</p>
 
                 
             </div>
@@ -504,7 +461,7 @@ int main()
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://1zhangqing.github.io/2021/07/11/ni-xu-dui-de-shu-liang-gui-bing-pai-xu-de-ying-yong/">http://1zhangqing.github.io/2021/07/11/ni-xu-dui-de-shu-liang-gui-bing-pai-xu-de-ying-yong/</a>
+                    <a href="http://1zhangqing.github.io/2022/05/28/vue/">http://1zhangqing.github.io/2022/05/28/vue/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -542,8 +499,8 @@ int main()
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/algorithm/">
-                                    <span class="chip bg-color">algorithm</span>
+                                <a href="/tags/notes/">
+                                    <span class="chip bg-color">notes</span>
                                 </a>
                             
                         </div>
@@ -715,9 +672,10 @@ int main()
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/05/28/vue/">
                     <div class="card-image">
@@ -735,9 +693,9 @@ int main()
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-28
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-28
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -750,6 +708,7 @@ int main()
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -768,13 +727,13 @@ int main()
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/07/11/gui-bing-pai-xu/">
+                <a href="/2021/07/11/ni-xu-dui-de-shu-liang-gui-bing-pai-xu-de-ying-yong/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="归并排序">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="逆序对的数量（归并排序的应用）">
                         
-                        <span class="card-title">归并排序</span>
+                        <span class="card-title">逆序对的数量（归并排序的应用）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
