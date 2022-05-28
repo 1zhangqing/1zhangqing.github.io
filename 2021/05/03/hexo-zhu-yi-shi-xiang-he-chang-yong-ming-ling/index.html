@@ -390,7 +390,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    668
+                    706
                 </div>
                 
 
@@ -492,63 +492,96 @@
 </li>
 <li><p>```shell<br>hexo init [folder]</p>
 <pre class="line-numbers language-none"><code class="language-none">
+   
+
    初始化一个博客
 
 3. &#96;&#96;&#96;shell
-   hexo new [layout] &lt;title&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+   hexo new [layout] &lt;title&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
 
 <p>新建一篇文章，在BLOG文件下下git bush或者在BLOG/suorce/_post文件夹下git bush后输入该命令</p>
 </li>
 <li><p>```shell<br>hexo generate</p>
 <pre class="line-numbers language-none"><code class="language-none">
+
+
 生成静态页面
 
 可简写为
 
-&#96;&#96;&#96;shell
-hexo g<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
-<li><p>```shell<br>hexo new draft 草稿文件名</p>
-<pre class="line-numbers language-none"><code class="language-none">
-新建草稿(草稿不会发表，会存储在source&#x2F;_drafts文件下)
+
 
 &#96;&#96;&#96;shell
-hexo publish 草稿文件名<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+hexo g<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li><p>```shell<br>hexo new draft 草稿文件名</p>
+<pre class="line-numbers language-none"><code class="language-none">
+
+
+新建草稿(草稿不会发表，会存储在source&#x2F;_drafts文件下)
+
+
+
+&#96;&#96;&#96;shell
+hexo publish 草稿文件名<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
 
 <p>发表草稿</p>
 </li>
 <li><p>```shell<br>hexo server</p>
 <pre class="line-numbers language-none"><code class="language-none">
+
+
 启动服务器
 
 可简写为
 
+
+
 &#96;&#96;&#96;shell
-hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
 <li><p>```shell<br>hexo deploy</p>
 <pre class="line-numbers language-none"><code class="language-none">
+
+
 部署网站
 
 可简写为
 
+
+
 &#96;&#96;&#96;shell
-hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
 <li><p>```shell<br>hexo clean</p>
 <pre class="line-numbers language-none"><code class="language-none">
+   
+
    清除缓存文件 (&#96;db.json&#96;) 和已生成的静态文件 (&#96;public&#96;)。
 
    在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。
 
+   
+
 9. &#96;&#96;&#96;shell
-   hexo --draft<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+   hexo --draft<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
 
 <p>显示 <code>source/_drafts</code> 文件夹中的草稿文章</p>
 </li>
 <li><p><strong>写一篇博客并上传的步骤流程</strong><br>在BLOG文件目录下git bush here后输入hexo new [layout] filename 新建一篇博客<br>在博客中用markdown语法写完博客后<br>在BLOG文件目录下git bush here<br>在命令终端hexo clean清除缓存，然后hexo g生成静态页面，然后hexo s启动本地服务器在本地预览结果（可省略），最后hexo d部署<br>在BLOG文件夹下的_config.yml中可以查看或者配置部署地址<br>其中gitee的部署后还要再到gitee仓库里手动部署网站，GitHub则不用</p>
 <pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo g -d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
+
+
 <p>这是直接生成静态页面并上传的简化命令</p>
 </li>
-<li><p>上传到Gitee或者GitHub上时在_config.yml里面改deploy参数，如下图：<img src=".%5ColdPaperImage%5Cimage-20220528000432374.png" alt="image-20220528000432374"></p>
+<li><p>上传到Gitee或者GitHub上时在_config.yml里面改deploy参数，如下图：<img src="..%5Cimages%5Cimage-20220528000432374.png" alt="image-20220528000432374"></p>
+<p>上传后要Gitee还要手动使用Gitee Page部署一下页面，Github不用</p>
+</li>
+<li><p>博客中引用图片格式参考：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/asset-folders">资源文件夹 | Hexo</a></p>
 </li>
 <li><p>忘记命令一个快捷的方式就是在终端直接输入hexo后按回车，它会提示你常用命令。</p>
 </li>
