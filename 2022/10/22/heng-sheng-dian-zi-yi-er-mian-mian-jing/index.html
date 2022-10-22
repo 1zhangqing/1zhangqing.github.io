@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo注意事项和常用命令, 一丈青">
+    <meta name="keywords" content="恒生电子一二面面经, 一丈青">
     <meta name="description" content="努力和上进">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>hexo注意事项和常用命令 | 一丈青</title>
+    <title>恒生电子一二面面经 | 一丈青</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -248,12 +248,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo注意事项和常用命令</h1>
+                    <h1 class="description center-align post-title">恒生电子一二面面经</h1>
                 </div>
             </div>
         </div>
@@ -369,8 +369,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
+                            <a href="/tags/Job-Interview/">
+                                <span class="chip bg-color">Job Interview</span>
                             </a>
                         
                     </div>
@@ -381,8 +381,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Hexo/" class="post-category">
-                                Hexo
+                            <a href="/categories/Job-Interview/" class="post-category">
+                                Job Interview
                             </a>
                         
                     </div>
@@ -394,7 +394,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-03
+                    2022-10-22
                 </div>
                 
 
@@ -408,14 +408,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    824
+                    637
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    2 分
                 </div>
                 
 
@@ -438,128 +438,31 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="hexo注意事项和常用命令"><a href="#hexo注意事项和常用命令" class="headerlink" title="hexo注意事项和常用命令"></a>hexo注意事项和常用命令</h1><p><strong>我的博客网站：</strong></p>
-<p>Gitee：<a target="_blank" rel="noopener" href="http://yizhangqing.gitee.io/">一丈青 (gitee.io)</a></p>
-<p>GitHub：<a href="https://1zhangqing.github.io/">一丈青 (1zhangqing.github.io)</a></p>
-<ol>
-<li><p>自己手写front-matter块出来的方法：写—（三个减号符号-）然后回车就能出现写front-matter的块来，里面可以配置参数如下：</p>
-<table>
-<thead>
-<tr>
-<th align="center">参数</th>
-<th align="center">描述</th>
-<th align="center">默认值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><code>layout</code></td>
-<td align="center">布局</td>
-<td align="center"><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration#%E6%96%87%E7%AB%A0"><code>config.default_layout</code></a></td>
-</tr>
-<tr>
-<td align="center"><code>title</code></td>
-<td align="center">标题</td>
-<td align="center">文章的文件名</td>
-</tr>
-<tr>
-<td align="center"><code>date</code></td>
-<td align="center">建立日期</td>
-<td align="center">文件建立日期</td>
-</tr>
-<tr>
-<td align="center"><code>updated</code></td>
-<td align="center">更新日期</td>
-<td align="center">文件更新日期</td>
-</tr>
-<tr>
-<td align="center"><code>comments</code></td>
-<td align="center">开启文章的评论功能</td>
-<td align="center">true</td>
-</tr>
-<tr>
-<td align="center"><code>tags</code></td>
-<td align="center">标签（不适用于分页）</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"><code>categories</code></td>
-<td align="center">分类（不适用于分页）</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"><code>permalink</code></td>
-<td align="center">覆盖文章网址</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"><code>excerpt</code></td>
-<td align="center">Page excerpt in plain text. Use <a target="_blank" rel="noopener" href="https://hexo.io/docs/tag-plugins#Post-Excerpt">this plugin</a> to format the text</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"><code>disableNunjucks</code></td>
-<td align="center">Disable rendering of Nunjucks tag <code>&#123;&#123; &#125;&#125;</code>/<code>&#123;% %&#125;</code> and <a target="_blank" rel="noopener" href="https://hexo.io/docs/tag-plugins">tag plugins</a> when enabled</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"><code>lang</code></td>
-<td align="center">Set the language to override <a target="_blank" rel="noopener" href="https://hexo.io/docs/internationalization#Path">auto-detection</a></td>
-<td align="center">Inherited from <code>_config.yml</code></td>
-</tr>
-</tbody></table>
-</li>
-<li><p>初始化一个博客系统：</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo init [folder]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
-<li><p>新建一篇文章：在BLOG文件下下git bush或者在BLOG/suorce/_post文件夹下git bush后输入该命令</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo new [layout] &lt;title&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
-<li><p>生成静态页面</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>可简写为</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo g<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
-<li><p>新建草稿(草稿不会发表，会存储在source/_drafts文件下)</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo new draft 草稿文件名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>发表草稿</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo publish 草稿文件名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
-<li><p>启动服务器</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>可简写为</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
-<li><p>部署网站（上传到Gitee和Github或者自己的服务器上）</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>可简写为</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
-<li><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)。</p>
-<p>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo clean<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
-<li><p>显示 <code>source/_drafts</code> 文件夹中的草稿文章</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo --draft<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
-<li><p><strong>写一篇博客并上传的步骤流程</strong><br>在BLOG文件目录下git bush here后输入hexo new [layout] filename 新建一篇博客<br>在博客中用markdown语法写完博客后<br>在BLOG文件目录下git bush here<br>在命令终端hexo clean清除缓存，然后hexo g生成静态页面，然后hexo s启动本地服务器在本地预览结果（可省略），最后hexo d部署<br>在BLOG文件夹下的_config.yml中可以查看或者配置部署地址<br>其中gitee的部署后还要再到gitee仓库里手动部署网站，GitHub则不用</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">这是直接生成静态页面并上传的简化命令：
-hexo g -d
-这是多命令一起执行的操作：
-hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
-hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
-<li><p>上传到Gitee或者GitHub上时在_config.yml里面改deploy参数，如下图：<img src="/2021/05/03/hexo-zhu-yi-shi-xiang-he-chang-yong-ming-ling/image-20220528000432374.png" class="" title="相关配置图片"></p>
-<p>上传后要Gitee还要手动使用Gitee Page部署一下页面，Github不用</p>
-</li>
-<li><p>博客中引用图片格式参考：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/asset-folders">资源文件夹 | Hexo</a></p>
-<p>现在只能在_post文件夹下新建一个和博客文章同名的文件夹，将图片放到该文件夹下，再通过如下方式引用图片：</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">&#123;% asset_img example.jpg This is an example image %&#125;
-#说明：
-#asset_img标识的是使用的插件
-#example.jpg是文章同名文件夹下的图片名
-#This is an example image这部分是图片下方的注释说明<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
-<li><p>忘记命令一个快捷的方式就是在终端直接输入hexo后按回车，它会提示你常用命令。</p>
-</li>
-<li><p>博客多平台部署参考：<a target="_blank" rel="noopener" href="https://gitee.com/help/articles/4136#article-header0">https://gitee.com/help/articles/4136#article-header0</a></p>
-</li>
-<li><p>hexo操作官方文档<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">文档 | Hexo</a></p>
-</li>
-</ol>
+                <h1 id="恒生电子一二面面经"><a href="#恒生电子一二面面经" class="headerlink" title="恒生电子一二面面经"></a><center>恒生电子一二面面经</center></h1><p>一面：</p>
+<p>1、自我介绍</p>
+<p>2、Java基础的数据类型以及包装类型？为什么要有包装类型？用法举例说明。</p>
+<p>3、数据库删除记录怎么删。应该是要答三个关键字</p>
+<p>4、Java有几种锁？</p>
+<p>5、设计模式了解吗？应用场景？</p>
+<p>6、Spring IOC和AOP的设计模式了解吗？</p>
+<p>7、基础数据类型的包装类如果要保证线程安全的话有对应的包装类吗还是怎么解决的？</p>
+<p>8、map接口下有那几个实现类？HashMap和HashTable有什么区别？哪个线程安全？CurrentHashMap的原理是什么？</p>
+<p>9、如何防止用户页面刷新导致不断地发请求？</p>
+<p>10、反问（公司技术栈？进去之后主要是做什么样的工作？要提前实习吗？）</p>
+<p>二面：</p>
+<p>1、自我介绍</p>
+<p>2、遇到最大的压力是什么？吧啦一堆后问给这种压力打几分？（1-10）</p>
+<p>3、最有成就感的事情？</p>
+<p>4、觉得自己有没有组织领导能力？答有一定的领导能力吧啦吧啦，然后问要如何提升这种能力？</p>
+<p>5、对于docker的理解？为什么用docker？和虚拟机这样的有什么区别？</p>
+<p>6、为什么要划分微服务？有什么好处？一开始答便于分工，问单体的也能划分模块来分工啊。然后答各个微服务可以分别部署，集群部署来防止单个服务宕机导致的整体服务不可用。</p>
+<p>7、Java是学校有相关课程还是自学的？为什么选择Java而不是C的方向？</p>
+<p>8、哪里人？独生子女？如果让你去杭州那边，你的想法？家里不会说想让你离他们近一点吗？</p>
+<p>9、薪资的要求？如何得出的这个薪资范围？</p>
+<p>10、有什么是你比较不擅长到擅长的吗？举例说明。</p>
+<p>11、反问（包住宿吗？不包。还有几轮？这是最后一轮。几天出结果？这一两天。）</p>
+<p>9.24投递简历并笔试–&gt;10.12一面技术面–&gt;10.13测评（好像发测评就代表一面过了）–&gt;10.18二面HR面穿插几个技术问题–&gt;10.20发offer（一天内给答复，两天内寄出三方，特别急，违约金13k😓，六险一金，公积金12%）</p>
+<p>给的虽然是白菜价，但是因为base在福州，已经差不多是福州第一档的应届生工资了，接了。</p>
 
                 
             </div>
@@ -586,7 +489,7 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="li
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://1zhangqing.github.io/2021/05/03/hexo-zhu-yi-shi-xiang-he-chang-yong-ming-ling/">http://1zhangqing.github.io/2021/05/03/hexo-zhu-yi-shi-xiang-he-chang-yong-ming-ling/</a>
+                    <a href="http://1zhangqing.github.io/2022/10/22/heng-sheng-dian-zi-yi-er-mian-mian-jing/">http://1zhangqing.github.io/2022/10/22/heng-sheng-dian-zi-yi-er-mian-mian-jing/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -624,8 +527,8 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="li
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
+                                <a href="/tags/Job-Interview/">
+                                    <span class="chip bg-color">Job Interview</span>
                                 </a>
                             
                         </div>
@@ -801,13 +704,13 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="li
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/07/11/kuai-su-pai-xu/">
+                <a href="/2022/10/22/sha-men-yin-xing-yi-er-mian-mian-jing/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="快速排序">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="厦门银行一二面面经">
                         
-                        <span class="card-title">快速排序</span>
+                        <span class="card-title">厦门银行一二面面经</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -818,14 +721,14 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="li
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-11
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-22
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Algorithm/" class="post-category">
-                                    Algorithm
+                            <a href="/categories/Job-Interview/" class="post-category">
+                                    Job Interview
                                 </a>
                             
                             
@@ -835,8 +738,8 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="li
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Algorithm/">
-                        <span class="chip bg-color">Algorithm</span>
+                    <a href="/tags/Job-Interview/">
+                        <span class="chip bg-color">Job Interview</span>
                     </a>
                     
                 </div>
@@ -850,13 +753,13 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="li
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/03/markdown-yu-fa-zhu-yi-shi-xiang/">
+                <a href="/2022/10/22/guang-zhou-gao-xin-xing-ji-qi-ren-yi-mian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="Markdown语法注意事项">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="广州高新兴机器人一面">
                         
-                        <span class="card-title">Markdown语法注意事项</span>
+                        <span class="card-title">广州高新兴机器人一面</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -867,14 +770,14 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="li
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-22
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Markdown/" class="post-category">
-                                    Markdown
+                            <a href="/categories/Job-Interview/" class="post-category">
+                                    Job Interview
                                 </a>
                             
                             
@@ -884,8 +787,8 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="li
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/Job-Interview/">
+                        <span class="chip bg-color">Job Interview</span>
                     </a>
                     
                 </div>

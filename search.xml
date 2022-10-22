@@ -4,23 +4,148 @@
   
     
     <entry>
-      <title>experience</title>
-      <link href="/2022/10/22/experience/"/>
-      <url>/2022/10/22/experience/</url>
+      <title>厦门银行一二面面经</title>
+      <link href="/2022/10/22/sha-men-yin-xing-yi-er-mian-mian-jing/"/>
+      <url>/2022/10/22/sha-men-yin-xing-yi-er-mian-mian-jing/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="厦门银行一二面面经"><a href="#厦门银行一二面面经" class="headerlink" title="厦门银行一二面面经"></a><center>厦门银行一二面面经</center></h1><p>一面：</p><p>1、自我介绍</p><p>2、站起来走到后面再走回来，看你的着装吧大概，还好那天穿了衬衫还扣上扣子了</p><p>3、实习中学习到了什么？</p><p>4、给自己的开发能力打几分？剩下的缺在哪？</p><p>5、有收到什么offer，有投其他银行吗，也都是科技岗吗？</p><p>6、觉得自己是一个什么性格的人？</p><p>7、成绩，专业多少人，拿奖学金要什么排名？</p><p>8、在校做的项目有一个是后端，一个是全栈是吧？然后我就展开讲我前后端都能负责（资本家听了都落泪）她没等我讲完就说好了好了进入下一个问题</p><p>9、没给反问机会，直接说面试到此结束，直接退出就行。</p><p>二面：</p><p>1、不用自我介绍直接开始</p><p>2、SpringMVC工作原理，整个的一个工作流程讲一下</p><p>3、dispatchServelet是用来干嘛的？我说是用来派发前端过来的请求的，问，如何实现派发前端请求的？</p><p>4、对AOP的了解？</p><p>5、进程间是如何通信的？</p><p>6、讲一下B+树。</p><p>7、技术面就结束了…接下来是HR面</p><p>8、对于工作地点的优先选择？是有很多亲戚在厦门吗？</p><p>9、还有考虑其他岗位吗？没有</p><p>10、反问（后面还有几轮？这是最后一轮面试，过了的话还有一个笔试。包住吗？有两年的住房还是住房补贴来着，好像是政府给的）</p><p>10.17一面–&gt;10.21二面，二面正好周五，笔试未发，不知道过没过。</p>]]></content>
       
       
       <categories>
           
-          <category> job Interview </category>
+          <category> Job Interview </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> job Interview </tag>
+            <tag> Job Interview </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>恒生电子一二面面经</title>
+      <link href="/2022/10/22/heng-sheng-dian-zi-yi-er-mian-mian-jing/"/>
+      <url>/2022/10/22/heng-sheng-dian-zi-yi-er-mian-mian-jing/</url>
+      
+        <content type="html"><![CDATA[<h1 id="恒生电子一二面面经"><a href="#恒生电子一二面面经" class="headerlink" title="恒生电子一二面面经"></a><center>恒生电子一二面面经</center></h1><p>一面：</p><p>1、自我介绍</p><p>2、Java基础的数据类型以及包装类型？为什么要有包装类型？用法举例说明。</p><p>3、数据库删除记录怎么删。应该是要答三个关键字</p><p>4、Java有几种锁？</p><p>5、设计模式了解吗？应用场景？</p><p>6、Spring IOC和AOP的设计模式了解吗？</p><p>7、基础数据类型的包装类如果要保证线程安全的话有对应的包装类吗还是怎么解决的？</p><p>8、map接口下有那几个实现类？HashMap和HashTable有什么区别？哪个线程安全？CurrentHashMap的原理是什么？</p><p>9、如何防止用户页面刷新导致不断地发请求？</p><p>10、反问（公司技术栈？进去之后主要是做什么样的工作？要提前实习吗？）</p><p>二面：</p><p>1、自我介绍</p><p>2、遇到最大的压力是什么？吧啦一堆后问给这种压力打几分？（1-10）</p><p>3、最有成就感的事情？</p><p>4、觉得自己有没有组织领导能力？答有一定的领导能力吧啦吧啦，然后问要如何提升这种能力？</p><p>5、对于docker的理解？为什么用docker？和虚拟机这样的有什么区别？</p><p>6、为什么要划分微服务？有什么好处？一开始答便于分工，问单体的也能划分模块来分工啊。然后答各个微服务可以分别部署，集群部署来防止单个服务宕机导致的整体服务不可用。</p><p>7、Java是学校有相关课程还是自学的？为什么选择Java而不是C的方向？</p><p>8、哪里人？独生子女？如果让你去杭州那边，你的想法？家里不会说想让你离他们近一点吗？</p><p>9、薪资的要求？如何得出的这个薪资范围？</p><p>10、有什么是你比较不擅长到擅长的吗？举例说明。</p><p>11、反问（包住宿吗？不包。还有几轮？这是最后一轮。几天出结果？这一两天。）</p><p>9.24投递简历并笔试–&gt;10.12一面技术面–&gt;10.13测评（好像发测评就代表一面过了）–&gt;10.18二面HR面穿插几个技术问题–&gt;10.20发offer（一天内给答复，两天内寄出三方，特别急，违约金13k😓，六险一金，公积金12%）</p><p>给的虽然是白菜价，但是因为base在福州，已经差不多是福州第一档的应届生工资了，接了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Job Interview </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Job Interview </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>广州高新兴机器人一面</title>
+      <link href="/2022/10/22/guang-zhou-gao-xin-xing-ji-qi-ren-yi-mian/"/>
+      <url>/2022/10/22/guang-zhou-gao-xin-xing-ji-qi-ren-yi-mian/</url>
+      
+        <content type="html"><![CDATA[<h1 id="广州高新兴机器人一面"><a href="#广州高新兴机器人一面" class="headerlink" title="广州高新兴机器人一面"></a><center>广州高新兴机器人一面</center></h1><p>10.19一面，面完发了测评，应该是过了</p><p>1、自我介绍</p><p>2、String是基础的数据类型吗？</p><p><a href="https://blog.csdn.net/lu202032/article/details/117047712">(37条消息) Java中 String类的详解(非常全面细致)_路宇的博客-CSDN博客_java string</a></p><p>3、为什么String是不可变的呢？</p><p>4、Java的基础数据类型有几种？</p><p>5、对多线程有了解吗？创建线程的几种方式？</p><p><a href="https://xue.baidu.com/okam/pages/strategy/index?strategyId=138108026331130&source=natural">创建线程有哪几种方式-百度知了好学 (baidu.com)</a></p><p><a href="https://blog.csdn.net/qq_46111269/article/details/126140830">(37条消息) 创建线程的四种方式（Thread、Runnable、线程池、Callable）_歪嗯waien的博客-CSDN博客_创建线程有哪几种方式</a></p><p>6、HashMap和HashTable的区别有了解过吗？HashMap是有序的吗？不是。那用什么才能存储有序的呢？LinkedList。</p><p><a href="https://blog.csdn.net/FeiChangWuRao/article/details/120269168">(37条消息) 有序的HashMap：LinkedHashMap_我是坑货的博客-CSDN博客_有序hashmap</a></p><p><a href="https://www.csdn.net/tags/MtjaAg2sNTUzNTYtYmxvZwO0O0OO0O0O.html">(37条消息) hashmap如何实现有序 - CSDN</a></p><p>7、MySQL数据库的优化有做过哪些？</p><p><a href="https://blog.csdn.net/ThinPikachu/article/details/122152689">(37条消息) 数据库优化的四大方法_瘦弱的皮卡丘的博客-CSDN博客_数据库优化</a></p><p>8、有使用SpringCloud的是吧，讲一下它的几个核心组件以及对应的作用。</p><p>9、讲一下你在实习做的事情。</p><p>10、数组转换成集合有哪几种方式？</p><p><a href="https://blog.csdn.net/weixin_42327945/article/details/96131238">(37条消息) 小白入门之 数组转列表的4种方法_谢苏、的博客-CSDN博客_数组转列表</a></p><p>11、深拷贝和浅拷贝的区别？深拷贝的对象放在哪里？堆。</p><p>12、反问</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Job Interview </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Job Interview </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>三棵树两面凉经</title>
+      <link href="/2022/10/22/san-ke-shu-liang-mian-liang-jing/"/>
+      <url>/2022/10/22/san-ke-shu-liang-mian-liang-jing/</url>
+      
+        <content type="html"><![CDATA[<h1 id="三棵树两面凉经"><a href="#三棵树两面凉经" class="headerlink" title="三棵树两面凉经"></a><center>三棵树两面凉经</center></h1><p>这公司太差劲了，看老家不是莆田的就把人刷了，要刷就刷，偏不在简历筛选时刷，整个笔试一二面的流程都走完了才刷，属实是给气到了，技术面也不刷人，明明要招Java的，来了几个前端和C++的面试也不刷掉，水到极致，问题答没答出来都给进二面，这样的面试有什么意义？线下面纯HR面，我还穿了西裤衬衫比较正式，最后感谢信了，真是谢谢您嘞。</p><p>10.11线上技术群面，按顺序一个一个面，我是第一个，8分钟左右结束</p><p>1、自我介绍</p><p>2、分布式事务是怎么解决的？答了消息队列可靠消息+最终一致性来解决，问有没有学过其他的？其他的没复习就说没有。</p><p>3、分布式锁是如何做的？</p><p>4、Java垃圾回收机制，青年代老年代分别的作用？这里把老年代说成了永久代，尴尬😅</p><p>然后…然后就结束了，质问我确定是永久代吗，语气很差，然后说他刚刚说的是老年代，然后我正想解释一下的，他问了一下旁边的人时间是不是到了，然后直接说下一个，我整一个大无语，反问都没有就算了，语气是真差劲</p><p>听了同组几个人的，两个福大硕士，这年头这破公司随机匹配一下都能随机匹配到两个福大硕，自我介绍都是SCI发了几篇几篇，在什么上发了多了论文啥的。</p><p>当时就觉得要没了，结果这俩一个是前端，一个是C++，但是，信息科技岗具体要求里写了要有Java、Web开发经验。</p><p>问前端的福大硕士：</p><p>Vue和React和Angular的区别？讲得挺好，一看就是背过的。</p><p>看你是前端的，会不会Java？他说不会，只会基础语法。</p><p>前端跟后端的交互过程中如何保证数据安全性？他不会。</p><p>问C++的福大硕士：</p><p>你是学C的，但是我们公司不招C的吧，我们公司主要是招Java的？（那简历初筛的时候为啥不筛，真是大无语，关键是技术面还给人过了，想让人转行是吧。）</p><p>有没有意向转Java？还是比较想做C++的。（人都这么说了，面试还不把他刷掉，无语）</p><p>对数据库的了解如何？了解不多</p><p>用C++做一个底层的保证安全性的一个啥玩意记不清了，怎么做？他说不知道。</p><p>好了，一个要Java的岗，来了两个非Java的，官网上只写信息科技岗确实可能投错，但是三棵树自己简历不筛就离谱了，技术面都这样子了，还让过，离大谱了属于是。</p><p>面试体验极其糟糕！</p><p>10.13大学城某酒店线下面</p><p>当时还不知道那俩不对口的进了，以为就是因为他俩不对口所以让我进了，说要穿正装，还穿了，还说面试进度比较快让提早去，结果去等了一个多小时，无语了。</p><p>而且以为第一轮技术面那么水，我还以为这一轮应该才是真正的技术面，想来锻炼锻炼的，结果是纯HR面😅</p><p>三个面试官，六个面试人员依次坐一排面，但我那组只有剩三个人了，很不幸我又是第一个</p><p>1、自我介绍</p><p>2、兴趣爱好？</p><p>3、三个词形容自己</p><p>4、对公司有什么要求？比较不能接受的三个点？</p><p>5、拿到什么offer？</p><p>好像还有几个但是我忘记是什么了。三个人按一个问题轮流答，总共也就面了不到15分钟。真是纯属浪费我的时间。垃圾公司。</p><p>总结：面试体验及其糟糕！面试官真的差劲。但HR小姐姐还是比较好的。但公司也是各垃圾公司，在我这里洗不白了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Job Interview </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Job Interview </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中电福富面经</title>
+      <link href="/2022/10/22/zhong-dian-fu-fu-mian-jing/"/>
+      <url>/2022/10/22/zhong-dian-fu-fu-mian-jing/</url>
+      
+        <content type="html"><![CDATA[<h1 id="中电福富面经"><a href="#中电福富面经" class="headerlink" title="中电福富面经"></a><center>中电福富面经</center></h1><p>福州的福富是线下的二三十分钟结束，我当时投了厦门的，大家都收到我没有收到，还以为我连中电福富这垃圾公司的简历都过不了。</p><p>然后，厦门的标准明显比福州要高（但薪资居然不变？？？）厦门的面试人员面了我一个多小时。</p><p>9.29面–&gt;10.10意向</p><p>1、自我介绍</p><p>2、在校哪些课学得比较好？搁这给我挖坑呢，答了操作系统和组成原理吧好像还是数据库。</p><p>3、结果就是，开始问一些操作系统由哪几部分组成，有一个什么操作是什么忘记了，反正就算一些操作系统和组成原理的内容。（谁考完了还去看这玩意？会的不都是要考研的吗）</p><p>4、JVM垃圾回收机制讲一下</p><p>5、数据库查询总数用什么？count *。聚集呢？group by。排序呢？order by。</p><p>6、实习中做什么？问了一下实习项目相关。</p><p>7、docker都是怎么用的。举例一些命令。</p><p>8、介绍一下商城项目。</p><p>9、如何实现高并发的。</p><p>10、如何避免超卖的？</p><p>11、接口幂等性如何实现，即防止用户刷接口重复下单。（这个经常给问到）</p><p>12、分布式锁实现的原理？</p><p>13、能不能接受加班？</p><p>14、能不能接受出差？答可以，怕太假了，补充了一句，国内可以，然后问我那新疆西藏这样的呢？（我真的是无语极了！）</p><p>15、反问。</p><p>还有很多但是我忘得差不多了，反正基本上把我简历上有写到的都问了一遍，还有一开始的408。</p><p>还以为没了，但还是让我过了，真点击就送。但是厦门跟福州一个价，而且才6500左右，还要自备电脑就离谱，强制毕业前实习，实习不抵试用期，实习期考核没过他还能无条件解约就真是离谱。给了意向，拒了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Job Interview </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Job Interview </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>顶点软件一面凉经</title>
+      <link href="/2022/10/22/ding-dian-ruan-jian-yi-mian-liang-jing/"/>
+      <url>/2022/10/22/ding-dian-ruan-jian-yi-mian-liang-jing/</url>
+      
+        <content type="html"><![CDATA[<h1 id="顶点软件一面凉经"><a href="#顶点软件一面凉经" class="headerlink" title="顶点软件一面凉经"></a><center>顶点软件一面凉经</center></h1><p>9.14投递简历并笔试–&gt;9.22面试</p><p>面试前HR打电话先进行基础了解（有没有offer，考不考公/研，锐捷和顶点同样待遇下选择哪个…），发成绩单等等，挂科或者绩点太低直接挂。  </p><p>正式面试：一个技术人员，一个HR</p><p>先HR问：</p><p>1、自我介绍</p><p>2、实习是校招实习还是老师推荐？实习的一个整体感受如何？离职了吗？还要去应聘他们公司？有转正机会吗？</p><p>3、学校还有课？没有想说考公或考研吗？为什么？家人支持吗？学习成绩挺好的为什么不继续读研呢？</p><p>4、讲一下最近印象比较深刻的一个项目？我讲的是实习的项目，一个修改Maven项目版本号的后台管理系统。  </p><p>接下来给技术人员爆杀，也怪自己没准备好：</p><p>5、这个项目是web的系统还是工具？能介绍一下若依吗？</p><p>6、实习项目改版本号时会有出现什么错误吗？什么原因出现的情况？后来如何处理？说实话没印象有什么大的bug，当时一下就不知道怎么说了，答得很差。</p><p>7、这个项目明明只需要properties属性统一管理一下就行，为什么要开发一个后台管理系统？这个纯属他没认真听我对系统的介绍，或者我介绍得不够清除。</p><p>8、看你有一个商城项目，你能对这个项目的需求以及设计做一个总体介绍吗？该死的谷粒商城我其实还没吃透，大减分。</p><p>9、对秒杀功能的机制以及相应的解决方案做一个相应的描述？</p><p>10、信号量和消息队列Rabbitmq的使用哪个在前哪个在后？既然用了信号量隔绝了一部分流量，为什么还要用队列来削峰？这两个的作用好像一样？</p><p>11、有考虑过rabbitmq的某一个消费者出现故障如何处理吗？</p><p>12、有几个消费者消费秒杀的申请？两个的话是否会存在消息无序的状态？如何确保消息有序消费？那如果只用一个消费者行不行？我项目应该是只有一个的，但是当时答了两个，然后就错漏百出的回答了，感觉这里直接给面试官一个完全不会消息队列的印象。</p><p>13、消息消费失败一直重新入队，重新消费，但每次都失败，会不会彻底堵住了整个业务流程？如何解决？</p><p>14、锁库存的如何做的？库存表和记录锁库存的表是怎么设计的？放在两个消费者的情况下出现的问题是什么？怎么解决的？</p><p>15、除了这个秒杀还有哪些比较难的部分？我答了最难就是秒杀，但是有遇到几个问题，远程调用和异步调用丢失请求头问题。问丢失了哪些请求头？😓异步线程池丢失的请求头如何处理的？那线程的数据没有清理掉，后面的请求进来复用了这个线程的数据，出现数据偏差有没有考虑过？没有。😓</p><p>16、商城数据在ES上的存储结构是什么样子的？检索基于哪些字段？字段上做了哪些优化？</p><p>17、Java垃圾回收器类型以及相应区别？只记得G1，问G1的垃圾回收原理？  </p><p>又换HR来问</p><p>18、平时时间如何分配？又担任什么职务？怎么安排任务？</p><p>19、后面11月可以出来实习吗？</p><p>20、毕业设计怎么安排？做哪个方向？</p><p>21、什么时候开始投简历？投哪些公司？都是福州？</p><p>22、父母对你工作有什么想法吗？</p><p>23、福州和厦门分别期望薪资待遇？</p><p>24、未来工作规划？</p><p>25、对于出差的看法？</p><p>26、对于加班如何看待？</p><p>27、学习过程中有强度比较大的时候吗？怎么放松的？</p><p>28、宿舍几个人，宿舍活动是什么？为啥问这个，疑惑。</p><p>29、其他人也在找工作吗，有想说到同一家公司还是各找各的？问这个干啥，无聊。</p><p>30、有女朋友吗？</p><p>31、反问。</p><p>（面试几轮？1-2轮。</p><p>强制毕业前实习？不强制。</p><p>公司技术栈？比较先进）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Job Interview </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Job Interview </tag>
             
         </tags>
       
@@ -30,8 +155,8 @@
     
     <entry>
       <title>Vue几点知识点</title>
-      <link href="/2022/05/28/vue/"/>
-      <url>/2022/05/28/vue/</url>
+      <link href="/2022/05/28/vue-ji-dian-zhi-shi-dian/"/>
+      <url>/2022/05/28/vue-ji-dian-zhi-shi-dian/</url>
       
         <content type="html"><![CDATA[<p><a href="https://note.youdao.com/s/F5YjrsTC">https://note.youdao.com/s/F5YjrsTC</a></p><p>点击上方链接查看我的有道云笔记分享！</p>]]></content>
       
@@ -63,14 +188,14 @@
       
       <categories>
           
-          <category> algorithm </category>
+          <category> Algorithm </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> algorithm </tag>
+            <tag> Algorithm </tag>
             
         </tags>
       
@@ -88,14 +213,14 @@
       
       <categories>
           
-          <category> algorithm </category>
+          <category> Algorithm </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> algorithm </tag>
+            <tag> Algorithm </tag>
             
         </tags>
       
@@ -113,14 +238,14 @@
       
       <categories>
           
-          <category> algorithm </category>
+          <category> Algorithm </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> algorithm </tag>
+            <tag> Algorithm </tag>
             
         </tags>
       
@@ -138,14 +263,14 @@
       
       <categories>
           
-          <category> algorithm </category>
+          <category> Algorithm </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> algorithm </tag>
+            <tag> Algorithm </tag>
             
         </tags>
       
@@ -263,14 +388,14 @@
       
       <categories>
           
-          <category> tools </category>
+          <category> Tools </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> tools </tag>
+            <tag> Tools </tag>
             
         </tags>
       
