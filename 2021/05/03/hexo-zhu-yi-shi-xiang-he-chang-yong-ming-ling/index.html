@@ -408,14 +408,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    824
+                    1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    4 分
                 </div>
                 
 
@@ -545,6 +545,22 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
 hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
 <li><p>上传到Gitee或者GitHub上时在_config.yml里面改deploy参数，如下图：<img src="/2021/05/03/hexo-zhu-yi-shi-xiang-he-chang-yong-ming-ling/image-20220528000432374.png" class="" title="相关配置图片"></p>
 <p>上传后要Gitee还要手动使用Gitee Page部署一下页面，Github不用</p>
+<blockquote>
+<p><strong>1、Git Bash控制台配置</strong> </p>
+<p><em>Gitee的hexo部署配置：</em></p>
+<p>git config –global user.name “yizhangqing”</p>
+<p>git config –global user.email “<a href="mailto:&#54;&#49;&#48;&#x31;&#49;&#x35;&#57;&#51;&#52;&#x40;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;">&#54;&#49;&#48;&#x31;&#49;&#x35;&#57;&#51;&#52;&#x40;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;</a>“</p>
+<p><em>GitHub的hexo部署配置:</em></p>
+<p>git config –global user.name “1zhangqing”</p>
+<p>git config –global user.email “<a href="mailto:&#x36;&#49;&#x30;&#49;&#49;&#x35;&#x39;&#51;&#52;&#x40;&#x71;&#113;&#46;&#99;&#x6f;&#x6d;">&#x36;&#49;&#x30;&#49;&#49;&#x35;&#x39;&#51;&#52;&#x40;&#x71;&#113;&#46;&#99;&#x6f;&#x6d;</a>“</p>
+<p><strong>2、修改_config.yml文件如上图位置</strong></p>
+<p>_config.yml中部署GitHub时就注释gitee开启github，部署Gitee就注释github开启gitee</p>
+<p><strong>3、如果密钥配置不对还要重新生成密钥</strong></p>
+<p>ssh-keygen -t rsa -C “<a href="mailto:&#x36;&#49;&#x30;&#x31;&#x31;&#53;&#x39;&#x33;&#x34;&#x40;&#x71;&#113;&#46;&#99;&#111;&#109;">&#x36;&#49;&#x30;&#x31;&#x31;&#53;&#x39;&#x33;&#x34;&#x40;&#x71;&#113;&#46;&#99;&#111;&#109;</a>“</p>
+<p>记得问是否overwrite重写的时候要输入y或yes，直接回车无法生成的</p>
+<p>然后将C:\Users\一丈青.ssh\id_rsa.pub中的内容复制一下，添加到GitHub或Gitee的SSH key那里</p>
+<p><strong>4、hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</strong></p>
+</blockquote>
 </li>
 <li><p>博客中引用图片格式参考：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/asset-folders">资源文件夹 | Hexo</a></p>
 <p>现在只能在_post文件夹下新建一个和博客文章同名的文件夹，将图片放到该文件夹下，再通过如下方式引用图片：</p>
@@ -1088,7 +1104,7 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="li
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">16.3k</span>&nbsp;字
+                class="white-color">16.5k</span>&nbsp;字
             
             
             
