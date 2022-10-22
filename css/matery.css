@@ -243,7 +243,9 @@ mark {
 .bg-color {
     /* background-image: linear-gradient(to right, #e06c63 0%, #772187 100%); */
     /* background-image: linear-gradient(to right, #a18cd1 0%, #fbc2eb 100%); */
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    /* background-image: linear-gradient(to right, #fa709a 0%, #9cc5eb 100%); */
+    /* background-image: linear-gradient(to right, #f1a9b2 0%, #9cc5eb 100%); */
+    background-image: linear-gradient(to right, #f1a9b2 0%, #9cc5eb 100%);
 }
 
 .text-color {
