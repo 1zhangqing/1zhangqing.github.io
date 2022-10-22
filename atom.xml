@@ -6,7 +6,7 @@
   <link href="http://1zhangqing.github.io/atom.xml" rel="self"/>
   
   <link href="http://1zhangqing.github.io/"/>
-  <updated>2022-05-28T02:26:01.019Z</updated>
+  <updated>2022-10-22T04:32:21.192Z</updated>
   <id>http://1zhangqing.github.io/</id>
   
   <author>
@@ -17,11 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>experience</title>
+    <link href="http://1zhangqing.github.io/2022/10/22/experience/"/>
+    <id>http://1zhangqing.github.io/2022/10/22/experience/</id>
+    <published>2022-10-22T04:28:47.000Z</published>
+    <updated>2022-10-22T04:32:21.192Z</updated>
+    
+    
+    
+    
+    <category term="job Interview" scheme="http://1zhangqing.github.io/categories/job-Interview/"/>
+    
+    
+    <category term="job Interview" scheme="http://1zhangqing.github.io/tags/job-Interview/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Vue几点知识点</title>
     <link href="http://1zhangqing.github.io/2022/05/28/vue/"/>
     <id>http://1zhangqing.github.io/2022/05/28/vue/</id>
     <published>2022-05-28T02:20:20.000Z</published>
-    <updated>2022-05-28T02:26:01.019Z</updated>
+    <updated>2022-10-22T04:29:30.080Z</updated>
     
     
       
@@ -34,10 +51,10 @@
     
     
     
-    <category term="notes" scheme="http://1zhangqing.github.io/categories/notes/"/>
+    <category term="Vue" scheme="http://1zhangqing.github.io/categories/Vue/"/>
     
     
-    <category term="notes" scheme="http://1zhangqing.github.io/tags/notes/"/>
+    <category term="Vue" scheme="http://1zhangqing.github.io/tags/Vue/"/>
     
   </entry>
   
@@ -146,7 +163,7 @@
     <link href="http://1zhangqing.github.io/2021/05/03/hexo-zhu-yi-shi-xiang-he-chang-yong-ming-ling/"/>
     <id>http://1zhangqing.github.io/2021/05/03/hexo-zhu-yi-shi-xiang-he-chang-yong-ming-ling/</id>
     <published>2021-05-03T02:48:06.000Z</published>
-    <updated>2022-05-28T01:39:39.753Z</updated>
+    <updated>2022-10-22T04:32:34.861Z</updated>
     
     
       
@@ -159,6 +176,10 @@
     
     
     
+    <category term="Hexo" scheme="http://1zhangqing.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="http://1zhangqing.github.io/tags/Hexo/"/>
     
   </entry>
   
@@ -167,7 +188,7 @@
     <link href="http://1zhangqing.github.io/2021/05/03/markdown-yu-fa-zhu-yi-shi-xiang/"/>
     <id>http://1zhangqing.github.io/2021/05/03/markdown-yu-fa-zhu-yi-shi-xiang/</id>
     <published>2021-05-03T02:31:51.000Z</published>
-    <updated>2021-07-11T07:40:10.054Z</updated>
+    <updated>2022-10-22T04:30:17.299Z</updated>
     
     
       
@@ -180,6 +201,10 @@
     
     
     
+    <category term="Markdown" scheme="http://1zhangqing.github.io/categories/Markdown/"/>
+    
+    
+    <category term="Markdown" scheme="http://1zhangqing.github.io/tags/Markdown/"/>
     
   </entry>
   
@@ -188,7 +213,7 @@
     <link href="http://1zhangqing.github.io/2021/05/03/csdn-zi-dai-markdown-bian-ji-qi/"/>
     <id>http://1zhangqing.github.io/2021/05/03/csdn-zi-dai-markdown-bian-ji-qi/</id>
     <published>2021-05-02T16:00:00.000Z</published>
-    <updated>2021-05-03T04:39:20.082Z</updated>
+    <updated>2022-10-22T04:30:23.925Z</updated>
     
     
       
@@ -202,6 +227,10 @@
     
     
     
+    <category term="Markdown" scheme="http://1zhangqing.github.io/categories/Markdown/"/>
+    
+    
+    <category term="Markdown" scheme="http://1zhangqing.github.io/tags/Markdown/"/>
     
   </entry>
   
@@ -210,7 +239,7 @@
     <link href="http://1zhangqing.github.io/2021/05/03/python-ji-yu-xie-cheng-de-yi-bu-bian-cheng-wen-dang/"/>
     <id>http://1zhangqing.github.io/2021/05/03/python-ji-yu-xie-cheng-de-yi-bu-bian-cheng-wen-dang/</id>
     <published>2021-05-02T16:00:00.000Z</published>
-    <updated>2021-05-03T12:52:53.234Z</updated>
+    <updated>2022-10-22T04:29:50.273Z</updated>
     
     
       
@@ -224,6 +253,10 @@
     
     
     
+    <category term="Python" scheme="http://1zhangqing.github.io/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="http://1zhangqing.github.io/tags/Python/"/>
     
   </entry>
   
@@ -232,7 +265,7 @@
     <link href="http://1zhangqing.github.io/2021/04/10/qing-hua-pip-jing-xiang/"/>
     <id>http://1zhangqing.github.io/2021/04/10/qing-hua-pip-jing-xiang/</id>
     <published>2021-04-10T06:11:21.000Z</published>
-    <updated>2021-04-10T06:15:20.366Z</updated>
+    <updated>2022-10-22T04:32:05.852Z</updated>
     
     
       
@@ -245,6 +278,10 @@
     
     
     
+    <category term="tools" scheme="http://1zhangqing.github.io/categories/tools/"/>
+    
+    
+    <category term="tools" scheme="http://1zhangqing.github.io/tags/tools/"/>
     
   </entry>
   
